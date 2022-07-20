@@ -38,6 +38,9 @@ module.exports = {
       },
     ],
   },
+  //   devServer: {
+  //     index: index.html,
+  //   },
   plugins: [
     new webpack.ProvidePlugin({
       $: "jquery",
